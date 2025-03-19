@@ -2,10 +2,13 @@ from math import sqrt
 from graphics import GraphWin, Text, Polygon, Point
 
 
+def square(x):
+    return x ** 2
+
 def get_length(point1, point2):
     dx = point1.getX() - point2.getX()
     dy = point1.getY() - point2.getY()
-    return sqrt((dx ** 2) + (dy ** 2))
+    return sqrt((square(dx)) + (square(dy)))
 
 
 def get_perimeter(point1, point2, point3):

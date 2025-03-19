@@ -1,6 +1,3 @@
-from graphics import *
-
-
 """
 Draw a winter scene with as christmas tree and a snowman
 
@@ -11,10 +8,14 @@ Draw tree
 --Draw triangle
 Draw snowman
 --Draw three circles atop each other
-
 """
 
+
+from graphics import Rectangle, GraphWin, Polygon, Circle, Oval, Point
+
+
 def main():
+    """main function"""
     win = GraphWin("A Winter Scene", 1000, 600)
     win.setCoords(0, 0, 100, 60)
 
