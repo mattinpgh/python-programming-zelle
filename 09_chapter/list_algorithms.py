@@ -30,7 +30,7 @@ def matt_get_index(element, lst):
 
 def matt_reverse(lst):
     new_lst = []
-    for idx in range(len(lst),0,-1):
+    for idx in range(len(lst) - 1, -1, -1):
         new_lst.append(lst[idx])
     return new_lst
 
